@@ -1,0 +1,120 @@
+{
+	"data": [
+		{
+			"tag": "Everest",
+			"patterns": [
+				"What is the height of Mt. Everest?",
+				"How long is Mount Everest?",
+				"How tall is Everest?",
+				"Can you tell me height of mount Everest?"
+			],
+			"response": [
+				"Mount Everest is 8848m tall.",
+				"8848m",
+				"Mount Everest is the highest peak in the world with height of 8848m."
+			]
+
+		},
+
+		{
+			"tag": "Buddha",
+			"patterns": [
+				"What is the name of Gautam Buddha?",
+				"Who was called Lord Buddha?",
+				"Who was named as Lord Buddha?"
+			],
+			"response":[
+				"Siddhartha Gautam.",
+				"Price of Lumbini, Siddhartha Gautam.",
+				"Light of Asia, Siddhartha Gautam"
+			]
+		},
+
+		{
+			"tag": "minister",
+			"patterns":[
+				"Who is prime minister of Nepal?",
+				"What is the name of prime minister of Nepal?",
+				"Who is the most powerful man of Nepal?"
+			],
+			"response":[
+				"KP Sharma Oli.",
+				"Khadga Prasad Sharma Oli."
+			]
+		},
+
+		{
+      		"tag": "greeting",
+      		"patterns": [
+        		"Hi",
+        		"Hey",
+        		"Hey,How are you",
+        		"Is anyone there?",
+        		"Hello",
+        		"Good day"
+      		],
+      		"response": [
+        		"Hey",
+        		"Hello, thanks for visiting",
+        		"Hi there, what can I do for you?",
+        		"Hi there, how can I help?"
+     		]
+   		},
+
+    	{
+      		"tag": "goodbye",
+      		"patterns": [
+      			"Bye", 
+      			"See you later",
+      			"Goodbye"
+      		],
+      		"response": [
+        		"See you later, thanks for visiting",
+        		"Have a nice day",
+        		"Bye! Come back again soon."
+      		]
+    	},
+   		
+   		{
+      		"tag": "thanks",
+      		"patterns": [
+      			"Thanks", 
+      			"Thank you",
+      			"That's helpful", 
+      			"Thank's a lot!"],
+      		"response": [
+      			"Happy to help!",
+      			"Any time!", 
+      			"My pleasure"
+      		]
+    	},
+
+    	{
+    		"tag": "Nepal",
+    		"patterns":[
+    			"What is Nepal Known for?",
+    			"What is Nepal famous for?",
+    			"Why are tourists attracted to Nepal?"
+    		],
+    		"response":[
+    			"Nepal is known for being naturally gifted.",
+    			"Nepal main attraction is beautiful places ranging from big moutains to plain terai.",
+    			"Despite, being small country Nepal is known for rich culture and natural."
+    		]
+
+    	},
+
+    	{
+    		"tag":"Mountains",
+    		"patterns":[
+    			"Tell me about the mountains in Nepal?",
+    			"How many big mountains are there in Nepal?",
+    			"How many mountains among world tallest mountains are present in Nepal?"
+    		],
+    		"response":[
+    			"Nepal has 8 of the worlds 10 tallest mountains including Everest, the highest one.",
+    			"Being rich on high moutains Nepal has 8 mountains above 8000m which comes under worlds tallest mountain."
+    		]
+    	} 
+	]
+}
