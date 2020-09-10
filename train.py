@@ -89,7 +89,7 @@ if __name__ == "__main__":
 
     # saving the model
     save_dir = "/results/"
-    model_name = 'keras_mnist.h5'
+    model_name = 'keras_chat.h5'
     model.save(model_name)
     model_path = save_dir + model_name
     print('Saved trained model at %s ' % model_path)

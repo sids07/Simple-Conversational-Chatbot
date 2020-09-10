@@ -16,7 +16,7 @@ if __name__=="__main__":
     with open("data.json") as json_data:
         datas = json.load(json_data)
 
-    model= keras.models.load_model('keras_mnist.h5')
+    model= keras.models.load_model('keras_chat.h5')
 
     model.summary()
     print(train_x.shape)
@@ -29,6 +29,7 @@ if __name__=="__main__":
             break
 
         sentence = sentence.lower()
+        
         sentence1 = remove_punctions(sentence)
 
         sentence2 = tokenize(sentence1)
